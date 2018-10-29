@@ -12,4 +12,4 @@ keytool -list -v -keystore "xyzpath\xyz.jks" -alias "wahab"
 
 Released Google O Client
 
-keytool -exportcert -keystore "xyz\ScheduleProKeyStore.jks" -list -v
+keytool -exportcert -keystore "xyz\xyz.jks" -list -v
