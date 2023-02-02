@@ -27,3 +27,5 @@ keytool -importcert -alias buscaro -file "C:\Users\Wahab\Desktop\deployment_cert
 keytool -exportcert -alias buscaro -keystore "E:\AndroidStudio\jre\bin\certificate.jks" | xxd -p | tr -d "[:space:]" | echo -n com.buscaro.passenger `cat` | shasum -a 256 | tr -d "[:space:]-" | xxd -r -p | base64 | cut -c1-11
 
 use these command in git bash for linux
+
+set path=%path%;C:\Program Files\Java\jdk1.8.0_191\bin
